@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69DE13F71BA1C46300550739 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DE13F61BA1C46300550739 /* main.m */; };
+		69DE13FA1BA1C46300550739 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DE13F91BA1C46300550739 /* AppDelegate.m */; };
+		69DE13FD1BA1C46300550739 /* Scientific_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69DE13FB1BA1C46300550739 /* Scientific_Calculator.xcdatamodeld */; };
+		69DE14001BA1C46300550739 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DE13FF1BA1C46300550739 /* ViewController.m */; };
+		69DE14031BA1C46300550739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69DE14011BA1C46300550739 /* Main.storyboard */; };
+		69DE14051BA1C46300550739 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69DE14041BA1C46300550739 /* Images.xcassets */; };
+		69DE14081BA1C46300550739 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DE14061BA1C46300550739 /* LaunchScreen.xib */; };
+		69DE14141BA1C46400550739 /* Scientific_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DE14131BA1C46400550739 /* Scientific_CalculatorTests.m */; };
+		69DE141E1BA1C48800550739 /* log in Resources */ = {isa = PBXBuildFile; fileRef = 69DE141D1BA1C48800550739 /* log */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69DE140E1BA1C46400550739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69DE13E91BA1C46300550739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69DE13F01BA1C46300550739;
+			remoteInfo = "Scientific Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69DE13F11BA1C46300550739 /* Scientific Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scientific Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DE13F51BA1C46300550739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69DE13F61BA1C46300550739 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69DE13F81BA1C46300550739 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69DE13F91BA1C46300550739 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69DE13FC1BA1C46300550739 /* Scientific_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Scientific_Calculator.xcdatamodel; sourceTree = "<group>"; };
+		69DE13FE1BA1C46300550739 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		69DE13FF1BA1C46300550739 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69DE14021BA1C46300550739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69DE14041BA1C46300550739 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		69DE14071BA1C46300550739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		69DE140D1BA1C46400550739 /* Scientific CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scientific CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DE14121BA1C46400550739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69DE14131BA1C46400550739 /* Scientific_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scientific_CalculatorTests.m; sourceTree = "<group>"; };
+		69DE141D1BA1C48800550739 /* log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = log; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69DE13EE1BA1C46300550739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DE140A1BA1C46400550739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69DE13E81BA1C46300550739 = {
+			isa = PBXGroup;
+			children = (
+				69DE141D1BA1C48800550739 /* log */,
+				69DE13F31BA1C46300550739 /* Scientific Calculator */,
+				69DE14101BA1C46400550739 /* Scientific CalculatorTests */,
+				69DE13F21BA1C46300550739 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69DE13F21BA1C46300550739 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69DE13F11BA1C46300550739 /* Scientific Calculator.app */,
+				69DE140D1BA1C46400550739 /* Scientific CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69DE13F31BA1C46300550739 /* Scientific Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				69DE13F81BA1C46300550739 /* AppDelegate.h */,
+				69DE13F91BA1C46300550739 /* AppDelegate.m */,
+				69DE13FE1BA1C46300550739 /* ViewController.h */,
+				69DE13FF1BA1C46300550739 /* ViewController.m */,
+				69DE14011BA1C46300550739 /* Main.storyboard */,
+				69DE14041BA1C46300550739 /* Images.xcassets */,
+				69DE14061BA1C46300550739 /* LaunchScreen.xib */,
+				69DE13FB1BA1C46300550739 /* Scientific_Calculator.xcdatamodeld */,
+				69DE13F41BA1C46300550739 /* Supporting Files */,
+			);
+			path = "Scientific Calculator";
+			sourceTree = "<group>";
+		};
+		69DE13F41BA1C46300550739 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69DE13F51BA1C46300550739 /* Info.plist */,
+				69DE13F61BA1C46300550739 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69DE14101BA1C46400550739 /* Scientific CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				69DE14131BA1C46400550739 /* Scientific_CalculatorTests.m */,
+				69DE14111BA1C46400550739 /* Supporting Files */,
+			);
+			path = "Scientific CalculatorTests";
+			sourceTree = "<group>";
+		};
+		69DE14111BA1C46400550739 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69DE14121BA1C46400550739 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69DE13F01BA1C46300550739 /* Scientific Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DE14171BA1C46400550739 /* Build configuration list for PBXNativeTarget "Scientific Calculator" */;
+			buildPhases = (
+				69DE13ED1BA1C46300550739 /* Sources */,
+				69DE13EE1BA1C46300550739 /* Frameworks */,
+				69DE13EF1BA1C46300550739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scientific Calculator";
+			productName = "Scientific Calculator";
+			productReference = 69DE13F11BA1C46300550739 /* Scientific Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69DE140C1BA1C46400550739 /* Scientific CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DE141A1BA1C46400550739 /* Build configuration list for PBXNativeTarget "Scientific CalculatorTests" */;
+			buildPhases = (
+				69DE14091BA1C46400550739 /* Sources */,
+				69DE140A1BA1C46400550739 /* Frameworks */,
+				69DE140B1BA1C46400550739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69DE140F1BA1C46400550739 /* PBXTargetDependency */,
+			);
+			name = "Scientific CalculatorTests";
+			productName = "Scientific CalculatorTests";
+			productReference = 69DE140D1BA1C46400550739 /* Scientific CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69DE13E91BA1C46300550739 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = fsu;
+				TargetAttributes = {
+					69DE13F01BA1C46300550739 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					69DE140C1BA1C46400550739 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 69DE13F01BA1C46300550739;
+					};
+				};
+			};
+			buildConfigurationList = 69DE13EC1BA1C46300550739 /* Build configuration list for PBXProject "Scientific Calculator" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69DE13E81BA1C46300550739;
+			productRefGroup = 69DE13F21BA1C46300550739 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69DE13F01BA1C46300550739 /* Scientific Calculator */,
+				69DE140C1BA1C46400550739 /* Scientific CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69DE13EF1BA1C46300550739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DE14031BA1C46300550739 /* Main.storyboard in Resources */,
+				69DE141E1BA1C48800550739 /* log in Resources */,
+				69DE14081BA1C46300550739 /* LaunchScreen.xib in Resources */,
+				69DE14051BA1C46300550739 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DE140B1BA1C46400550739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69DE13ED1BA1C46300550739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DE13FD1BA1C46300550739 /* Scientific_Calculator.xcdatamodeld in Sources */,
+				69DE13FA1BA1C46300550739 /* AppDelegate.m in Sources */,
+				69DE14001BA1C46300550739 /* ViewController.m in Sources */,
+				69DE13F71BA1C46300550739 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DE14091BA1C46400550739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DE14141BA1C46400550739 /* Scientific_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69DE140F1BA1C46400550739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69DE13F01BA1C46300550739 /* Scientific Calculator */;
+			targetProxy = 69DE140E1BA1C46400550739 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69DE14011BA1C46300550739 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69DE14021BA1C46300550739 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69DE14061BA1C46300550739 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69DE14071BA1C46300550739 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69DE14151BA1C46400550739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69DE14161BA1C46400550739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69DE14181BA1C46400550739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Scientific Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fsu.COP4656.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69DE14191BA1C46400550739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Scientific Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fsu.COP4656.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69DE141B1BA1C46400550739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Scientific CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fsu.COP4656.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scientific Calculator.app/Scientific Calculator";
+			};
+			name = Debug;
+		};
+		69DE141C1BA1C46400550739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Scientific CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fsu.COP4656.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scientific Calculator.app/Scientific Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69DE13EC1BA1C46300550739 /* Build configuration list for PBXProject "Scientific Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DE14151BA1C46400550739 /* Debug */,
+				69DE14161BA1C46400550739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69DE14171BA1C46400550739 /* Build configuration list for PBXNativeTarget "Scientific Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DE14181BA1C46400550739 /* Debug */,
+				69DE14191BA1C46400550739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69DE141A1BA1C46400550739 /* Build configuration list for PBXNativeTarget "Scientific CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DE141B1BA1C46400550739 /* Debug */,
+				69DE141C1BA1C46400550739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		69DE13FB1BA1C46300550739 /* Scientific_Calculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69DE13FC1BA1C46300550739 /* Scientific_Calculator.xcdatamodel */,
+			);
+			currentVersion = 69DE13FC1BA1C46300550739 /* Scientific_Calculator.xcdatamodel */;
+			path = Scientific_Calculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 69DE13E91BA1C46300550739 /* Project object */;
+}

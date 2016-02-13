@@ -1,0 +1,26 @@
+Scientific Calculator
+This is Assignment 1 for COP4656 - IOS Programming
+
+Issues:
+What should be the bundle identifier?
+Is it only single view?
+The assignment rubric links don't work.
+Any specific methodologies/ specific programming conventions you would like
+for us to follow such as having a bracket immediately after method
+parameters?
+
+9/16/15
+Added the interface/ implementation of Compute and Calculator class.
+
+9/20/15
+Put the Compute class in ViewController files.
+
+To get a number into a string format so that I would be able to
+send it back to the label for output, I would do:
+NSString *return = [[NSString alloc] initWithFormat:@"%@", number]
+- Got the view for iphone 5 vertical down but unsure of how it
+would horizontally. Need internet..
+
+9/21/15
+issue: Number not adding up correctly.
+  5+3 = 10 and 3+ 5 = 6
