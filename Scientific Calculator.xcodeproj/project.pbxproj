@@ -15,7 +15,7 @@
 		69DE14051BA1C46300550739 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69DE14041BA1C46300550739 /* Images.xcassets */; };
 		69DE14081BA1C46300550739 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DE14061BA1C46300550739 /* LaunchScreen.xib */; };
 		69DE14141BA1C46400550739 /* Scientific_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DE14131BA1C46400550739 /* Scientific_CalculatorTests.m */; };
-		69DE141E1BA1C48800550739 /* log in Resources */ = {isa = PBXBuildFile; fileRef = 69DE141D1BA1C48800550739 /* log */; };
+		69DE141E1BA1C48800550739 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 69DE141D1BA1C48800550739 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,7 @@
 		69DE140D1BA1C46400550739 /* Scientific CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scientific CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69DE14121BA1C46400550739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69DE14131BA1C46400550739 /* Scientific_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scientific_CalculatorTests.m; sourceTree = "<group>"; };
-		69DE141D1BA1C48800550739 /* log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = log; sourceTree = "<group>"; };
+		69DE141D1BA1C48800550739 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 		69DE13E81BA1C46300550739 = {
 			isa = PBXGroup;
 			children = (
-				69DE141D1BA1C48800550739 /* log */,
+				69DE141D1BA1C48800550739 /* README */,
 				69DE13F31BA1C46300550739 /* Scientific Calculator */,
 				69DE14101BA1C46400550739 /* Scientific CalculatorTests */,
 				69DE13F21BA1C46300550739 /* Products */,
@@ -206,7 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69DE14031BA1C46300550739 /* Main.storyboard in Resources */,
-				69DE141E1BA1C48800550739 /* log in Resources */,
+				69DE141E1BA1C48800550739 /* README in Resources */,
 				69DE14081BA1C46300550739 /* LaunchScreen.xib in Resources */,
 				69DE14051BA1C46300550739 /* Images.xcassets in Resources */,
 			);

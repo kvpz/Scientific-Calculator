@@ -51,16 +51,21 @@
 
 /*
  - @synthesize properties when custom getter/setter functions implemented.
+ 
  - _<property> uses the autosynthesized properties; auto creates 'iVar'.
- -(UIButton *)sender is not required for the action methods unless there are
+ 
+ - (UIButton *)sender is not required for the action methods unless there are
  multiple buttons connected to a single method (for button distinction).
- -IBOutlet connects an object in the UI to instance variables.
- -It is not guaranteed that the setter/ getter will set/get a whole value.
- -Assign vs weak vs retain vs copy determines how the synthesized accessors interact with
+ 
+ - IBOutlet connects an object in the UI to instance variables.
+ 
+ - It is not guaranteed that the setter/ getter will set/get a whole value.
+ 
+ - Assign vs weak vs retain vs copy determines how the synthesized accessors interact with
  the Objective-C memory management scheme. ASSIGN is the default and simply performs a
  variable assignment. It does not assert ownership, so the object pointed to by the
  property's pointer may disappear at any time WEAK is identical to assign, except that it
  will zero out pointers that lead to deallocated objects to stop them from dangling. Weak
- is only available in an ARC environment.
+ is only available in an ARC(Automatic Reference Counting) environment.
  
 */
